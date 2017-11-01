@@ -19,6 +19,11 @@ I lived in Toronto, CANADA. I am intrested in find more about the places and str
 2. When I audit the Postal Code, some of them are missing a space as follows 'L1W3R2'. 
    * The right format is :'L1W 3R2'. 
 
-3.
-
+3. When I audit the Phone numbers. some of them are notin the right format. I able to corrected to the right format as follows.
+   * '+1 905 990 9220' -> '+1-905-990-9220'
+   * Also seen abnormal format as follows,
+       * 'unknown''(416) 536-SODA',
+                 '+1 905 -90-4110',
+                 '1 905 891 326',
+                 '439-0000'
 
