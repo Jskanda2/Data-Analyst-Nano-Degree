@@ -27,3 +27,10 @@ I lived in Toronto, CANADA. I am intrested in find more about the places and str
                  '1 905 891 326',
                  '439-0000'
 
+ Exploring the Data
+1. Number of Nodes.
+In [15]:
+
+cur.execute("SELECT COUNT(*) from nodes;")
+print 'There are {} nodes.'.format(cur.fetchall()[0][0])
+There are 341835 nodes.
